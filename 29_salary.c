@@ -18,4 +18,4 @@ int main()
     printf("\tTravelling Allowance =%f\n", ta);
     printf("\tTotal Salary of Employee =%f\n", gross);
     return 0;
-}
+} 
