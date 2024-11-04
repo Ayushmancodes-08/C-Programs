@@ -6,7 +6,7 @@ int main()
     scanf("%f", &base);
     printf("Enter your Daily Allowance\n");
     scanf("%f", &da);
-    printf("Enter ouse Rental Allowance\n");
+    printf("Enter house Rental Allowance\n");
     scanf("%f", &hra);
     printf("Enter your Travelling Allowance\n");
     scanf("%f", &ta);
