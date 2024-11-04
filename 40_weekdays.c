@@ -1,0 +1,36 @@
+// Wap to enter number from 1 to 7 and display the corresponding name of the week using switch case statement
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("Enter any number from 1 to 7");
+    scanf("%d", &num);
+    switch (num)
+    {
+    case 1:
+        printf("Sunday");
+        break;
+    case 2:
+        printf("Monday");
+        break;
+    case 3:
+        printf("Tuesday");
+        break;
+    case 4:
+        printf("Wednesday");
+        break;
+    case 5:
+        printf("Thursday");
+        break;
+    case 6:
+        printf("Friday");
+        break;
+    case 7:
+        printf("Saturday");
+        break;
+    default:
+        printf("Wrong Input!!");
+    }
+
+    return 0;
+}
