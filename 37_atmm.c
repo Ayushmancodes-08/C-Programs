@@ -6,8 +6,7 @@ int main()
     int money;
     printf("Enter Money for the ATM :");
     scanf("%d", &money);
-    if (money == 500)
-    {
+    if (money == 500){
         printf("Money Accepted is Rs.500");
     }
     else if (money == 1000)

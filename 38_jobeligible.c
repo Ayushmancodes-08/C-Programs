@@ -11,27 +11,21 @@ int main()
     {
         printf("Enter your !2th percentage(out of 100%)");
         scanf("%f", &twelth);
+    }
         if (twelth >= 50)
         {
             printf("Enter your btech percentage (out of 100%)");
             scanf("%f", &btech);
+        }
             if (btech >= 55)
             {
-                printf("You Are Eligible for Job Post");
+                 printf("You Are Eligible for Job Post");  
             }
+                          
             else
             {
                 printf("You are not Eligible");
             }
-        }
-        else
-        {
-            printf("You are not Eligible");
-        }
-    }
-    else
-    {
-        printf("You are not Eligible");
-    }
     return 0;
 }
+        

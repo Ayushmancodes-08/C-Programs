@@ -30,6 +30,7 @@ int main()
         default:
             printf("Please enter correct menu-Option");
         }
+        break;
     case 2:
         printf("Enter 1 for Chicken\n  2 for Mutton\n 3 for Fish\n 4 for Prawn\n 5 for Chicken-Biriyani: ");
         scanf("%d", &submain);
