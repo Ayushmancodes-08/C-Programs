@@ -1,4 +1,5 @@
-//  Write a program to find sum of two numbers using user defined Functions. Hint: The function will return sum value and have two arguments.
+//  Write a program to find sum of two numbers using user defined Functions. 
+// Hint: The function will return sum value and have two arguments.
 #include <stdio.h>
 int sum(int a, int b);
 

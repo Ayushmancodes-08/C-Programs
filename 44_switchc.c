@@ -2,15 +2,15 @@
 #include <stdio.h>
 int main()
 {
-    int main, submain;
+    int menu, submenu;
     printf("Enter your Choice: 1 for Veg \n \t 2 for Non-veg");
-    scanf("%d", &main);
-    switch (main)
+    scanf("%d", &menu);
+    switch (menu)
     {
     case 1:
         printf("Enter 1 for Paneer\n  2 for Mushroom\n 3 for Naan\n 4 for chowmin\n 5 for Veg-momo: ");
-        scanf("%d", &submain);
-        switch (submain)
+        scanf("%d", &submenu);
+        switch (submenu)
         {
         case 1:
             printf("Your Paneer Dish will be ready in 5 minutes");
@@ -33,8 +33,8 @@ int main()
         break;
     case 2:
         printf("Enter 1 for Chicken\n  2 for Mutton\n 3 for Fish\n 4 for Prawn\n 5 for Chicken-Biriyani: ");
-        scanf("%d", &submain);
-        switch (submain)
+        scanf("%d", &submenu);
+        switch (submenu)
         {
         case 1:
             printf("Your Chicken Dish will be ready in 5 minutes");
