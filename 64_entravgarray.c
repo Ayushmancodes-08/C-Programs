@@ -1,4 +1,4 @@
-// Write a program to enter 5 values into the array using for loop find the average of the sum of the array?
+// Write a program to enter 5 values into the array using for loop find the average of the sum of the array?7
 #include <stdio.h>
 int main()
 {

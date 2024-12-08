@@ -7,7 +7,7 @@ int main()
     int a[3][3] = {2, 3, 4,
                    5, 6, 8,
                    7, 6, 5};
-    printf(" Multiplication of the initialised Array =\n");
+    printf(" Average of the initialised Array =\n");
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)

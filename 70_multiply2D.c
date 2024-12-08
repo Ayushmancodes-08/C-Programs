@@ -1,4 +1,4 @@
-// Write a program to multiply two 2D arrays of size 3*3?
+// Write a program to multiply two 2D arrays of size 3*3? 
 #include <stdio.h>
 int main()
 {
@@ -8,14 +8,28 @@ int main()
     int b[3][3] = {2, 3, 4,
                    5, 5, 7,
                    9, 3, 2};
-    printf(" Multiplication of the initialised Array =\n");
-    for (int i = 0; i < 3; i++)
+    int result[3][3];
+    int i, j, k;
+    for (i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (j = 0; j < 3; j++)
         {
-            printf("%d ", a[i][j] * b[i][j]);
+            result[i][j] = 0;
+            for (k = 0; k < 3; k++)
+            {
+                result[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+    printf("Resultant matrix after multiplication:\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            printf("%d ", result[i][j]);
         }
         printf("\n");
     }
+
     return 0;
 }

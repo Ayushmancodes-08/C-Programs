@@ -4,8 +4,8 @@ int main()
 {
     int a[2][2] = {2, 3,
                    4, 5};
-    int b[2][2] = {2, 3,
-                   4, 5};
+    int b[2][2] = {2, 4,
+                   6, 7};
     printf(" Sum of the initialised Array =\n");
     for (int i = 0; i < 2; i++)
     {

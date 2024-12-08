@@ -3,14 +3,13 @@
 int main()
 {
     int n;
-    int a[3][3] = {1, 3, 5,
-                   7, 9, 5,
-                   8, 3, 6};
+    int a[2][2] = {2,7,
+                   9,4};
     printf("Enter the Element to search:");
     scanf("%d", &n);
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 2; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < 2; j++)
         {
             if (n == a[i][j])
             {
