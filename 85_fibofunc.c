@@ -1,11 +1,6 @@
 // WAP to print Fibonacci series using Function
 #include <stdio.h>
-int fibonacci(int n) {
-    if (n <= 1)
-        return n;
-    else
-        return (fibonacci(n - 1) + fibonacci(n - 2));
-}
+int fibonacci(int n);
 int main() {
     int n, i;
     printf("Enter the number of terms : ");
@@ -17,4 +12,10 @@ int main() {
     }
     printf("\n");
     return 0;
+}
+int fibonacci(int n) {
+    if (n <= 1)
+        return n;
+    else
+        return (fibonacci(n - 1) + fibonacci(n - 2));
 }
