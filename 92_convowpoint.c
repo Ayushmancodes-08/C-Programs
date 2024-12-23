@@ -5,13 +5,13 @@ void stricoun(char *c, int *vow, int *conso);
 int main()
 {
     char ch[20];
-    int vow = 0, conso = 0;
+    int vowe = 0, conson = 0;
 
     printf("Enter a string: ");
     gets(ch);
-    stricoun(ch, &vow, &conso);
-    printf("Number of vowels: %d\n", vow);
-    printf("Number of consonants: %d\n", conso);
+    stricoun(ch, &vowe, &conson);
+    printf("Number of vowels: %d\n", vowe);
+    printf("Number of consonants: %d\n", conson);
     return 0;
 }
 void stricoun(char *c, int *vowels, int *consonants)
