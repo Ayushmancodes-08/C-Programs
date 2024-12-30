@@ -13,7 +13,7 @@ int main()
     struct student s[5];
     for (int i = 0; i < 5; i++)
     {
-        printf("Enter Name.Roll.no and Mark of studemnt %d: ",i+1);
+        printf("Enter Name.Roll.no and Mark of studemnt %d: ", i + 1);
         scanf(" %s %d %d", s[i].name, &s[i].rollno, &s[i].mark);
     }
     for (int i = 0; i < 5; i++)

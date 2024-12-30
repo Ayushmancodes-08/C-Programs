@@ -4,9 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-    int *arr;
+    int *arr; arr = (int *)calloc(5,sizeof(int));
     int temp;
-    arr = (int *)calloc(5,sizeof(int));
     if (arr == NULL) {
         printf("Memory allocation failed\n");
         return 1;
@@ -29,8 +28,6 @@ int main() {
     for (int i = 0; i < 5; i++) {
         printf("%d ", arr[i]);
     }
-    printf("\n");
     free(arr);
-
     return 0;
 }

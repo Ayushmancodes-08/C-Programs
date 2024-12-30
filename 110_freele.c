@@ -11,12 +11,10 @@ int main() {
         return 1;
     }
     printf("Enter 5 elements:\n");
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < 5; i++)
+    {
         scanf("%d", &arr[i]);
-    }
-    printf("Entered elements:\n");
-    for (int i = 0; i < size; i++) {
-        printf("%d ", arr[i]);
+        printf("Element entered is %d \n", arr[i]);
     }
     printf("\n");
     free(arr);
